@@ -1,5 +1,5 @@
 // Global variables
-const TOKEN_ADDRESS = '8FX64Y9Qv9Mq1WY3cGKMZ5H39V8fSVhHzbkzHiiCpump';
+const TOKEN_ADDRESS = '9VPd93DcA73aveEXs1jPJGk2QgZVAQMPVhwQRfWApump';
 let tokenData = {};
 
 // Initialize app
