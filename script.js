@@ -1,10 +1,10 @@
 // Global variables
-const TOKEN_ADDRESS = '9VPd93DcA73aveEXs1jPJGk2QgZVAQMPVhwQRfWApump';
+const TOKEN_ADDRESS = '3UZYE24qGhU6Kwb93p6ZWq7kd6sHm6jX1BHyBPFKpump';
 let tokenData = {};
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('🚀 PONZI TOKEN INITIALIZING...');
+    console.log('🚀 Chain Revenue INITIALIZING...');
     initializeApp();
 });
 
@@ -56,7 +56,7 @@ async function loadTokenData() {
             holders: holders,
             change24h: parseFloat(data.change24h || 0),
             liquidity: parseFloat(data.liquidity || 0),
-            name: data.name || 'Ponzi Token',
+            name: data.name || 'Chain Revenue',
             symbol: data.symbol || 'PONZI',
             source: data.source || 'Unknown'
         };
